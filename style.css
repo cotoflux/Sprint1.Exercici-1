@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+header{
+    width: 1000px;
+    margin: 50px auto;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+#nav1{
+    background-color: lightskyblue;
+    width: 980px;
+    margin: 10px;
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#bloque1{
+    background-color: lightgreen;
+    width: 320px;
+    margin: 10px;
+    height: 60px;
+}
+
+#bloque2{
+    background-color: lightgreen;
+    width: 320px;
+    margin: 10px;
+    height: 60px;
+}
+
+#bloque3{
+    background-color: lightgreen;
+    width: 320px;
+    margin: 10px;
+    height: 60px;
+}
+
+#nav2{
+    background-color: lightcoral;
+    width: 980px;
+    margin: 10px 10px;
+    height: 80px;
+}
+
+/*
+TODO EL CONTENIDO DEL MAIN
+*/
+
+main{
+    background-color: black;
+    width: 1000px;
+    margin: 50px auto;
+    height: 400px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section{
+    background-color: brown;
+    width: 700px;
+    margin: 10px 10px;
+    height: 380px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section>#articulos{
+    background-color:blue;
+    width: 680px;
+    margin: 10px 10px;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main section>#articuloFin{
+    background-color: lightblue;
+    width: 680px;
+    margin: 10px 10px;
+    height: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside{
+    background-color: blueviolet;
+    width: 300px;
+    margin: 10px 10px;
+    height: 380px;
+}
+
+
+/* 
+TODO EL CSS DEL FOOTER
+*/
+
+footer{
+    background-color: black;
+    width: 1000px;
+    margin: 50px auto;
+    height: 200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer > div{
+    background-color: aqua;
+    width: 980px;
+    margin: 10px auto;
+    height: 180px;
+    vertical-align: center;
+}
+
+
