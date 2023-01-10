@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+header{
+    width: 1000px;
+    margin: 50px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+header>#nav1{
+    background-color: lightskyblue;
+    width: 980px;
+    margin: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#bloque1{
+    background-color: lightgreen;
+    width: 320px;
+    margin: 10px;
+}
+
+#bloque2{
+    background-color: lightgreen;
+    width: 320px;
+    margin: 10px;
+}
+
+#bloque3{
+    background-color: lightgreen;
+    width: 320px;
+    margin: 10px;
+}
+
+header>#nav2>#subNav{
+    background-color: lightcoral;
+    width: 980px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display:flex;
+}
+
+/*
+TODO EL CONTENIDO DEL MAIN
+*/
+
+main{
+    background-color: black;
+    width: 1000px;
+    margin: 50px auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section{
+    background-color: brown;
+    width: 700px;
+    margin: 10px 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section>#articulos{
+    background-color:blue;
+    margin: 10px 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main>section>#articulos>#articulo1{
+    Width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main>section>#articulos>#articulo1>div{
+    background-color: aqua;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+
+main>section>#articulos>#articulo2{
+    Width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main>section>#articulos>#articulo2>div{
+    background-color: aqua;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+main section>#articuloFin{
+    background-color: lightblue;
+    width: 680px;
+    margin: 10px 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside{
+    background-color: blueviolet;
+    margin: 10px 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+
+/* 
+TODO EL CSS DEL FOOTER
+*/
+
+footer{
+    background-color: black;
+    width: 1000px;
+    margin: 50px auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer > div{
+    background-color: aqua;
+    width: 980px;
+    margin: 10px auto;
+    vertical-align: center;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+            /*
+    DEL HEADER
+    */ 
+    header{
+        width: 750px;
+    }
+    header>#nav1{
+        width: 730px;
+    }
+    #bloque1{
+        width: 100%;
+    }
+    #bloque2{
+        width: 100%;
+    }
+    #bloque3{
+        width: 100%;
+    }
+    header>#nav2{
+        width: 730px;
+    }
+    header>#nav2>#subNav{
+        width: 730px;
+    }
+
+        /*
+    DEL MAIN
+    */  
+    main{
+        width: 750px;
+    }
+    section{
+        width: 562px;
+    }
+    aside{
+        width: 188px;
+    }
+
+    main section>#articuloFin{
+        width: 540px;
+    }
+
+            /*
+    DEL FOOTER
+    */ 
+    footer{
+        width: 750px;
+    }
+    footer > div{
+        width: 730px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+            /*
+    DEL HEADER
+    */ 
+    header{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    header>#nav1{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #bloque1{
+        width: 33%;
+    }
+    #bloque2{
+        width: 33%;
+    }
+    #bloque3{
+        width: 33%;
+    }
+    header>#nav2{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    header>#nav2>#subNav{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+            /*
+    DEL MAIN
+    */  
+    main{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    section{
+        width: 75%;
+
+    }
+    aside{
+        width: 25%;
+
+    }
+
+    main section>#articuloFin{
+        width: 95%;
+    }
+
+            /*
+    DEL FOOTER
+    */ 
+    footer{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    footer > div{
+        width: 97%;
+    }
+}
